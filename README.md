@@ -1,12 +1,3 @@
-**PySpark FIFA Player Clustering Pipeline with FastAPI**
-
-This title is concise, descriptive, and highlights the key components: PySpark for the ML pipeline, FIFA dataset for player clustering, and FastAPI for model deployment.
-
----
-
-### README.md
-
-```markdown
 # PySpark FIFA Player Clustering Pipeline with FastAPI
 
 A modular PySpark machine learning pipeline for clustering FIFA 2018 player data using KMeans, with a FastAPI server to deploy the model for real-time predictions.
