@@ -1,0 +1,13 @@
+data:
+  raw: "data/raw/FIFA_2018.csv"
+  processed: "data/processed/fifa_processed.csv"
+pipeline:
+  features: ["Overall", "Potential", "Acceleration", "Agility", "Value", "Wage", "NationalityIndex"]
+  kmeans:
+    k: 3
+    seed: 1
+output:
+  model_path: "models/kmeans_model"
+  metrics_path: "reports/metrics.json"
+  plot_path: "reports/cluster_distribution.png"
+  predictions_path: "reports/predictions.csv"
